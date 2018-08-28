@@ -1,0 +1,161 @@
+* { margin: 0; padding: 0; outline: 0; }
+
+body, html { height: 100%; }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+      background-color: #f1f1f1;
+    font-size: 12px;
+    line-height: 22px;
+    font-family: verdana, arial, sans-serif;
+    color: #727272;
+    background: url(images/body-pattern.png) repeat 0 0;
+    min-width: 100%;
+}
+/*font-family: 'Raleway', sans-serif;*/
+
+a { color: #2F5564; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration:none; }
+a img { border: 0; }
+
+article, aside, details, footer, header, menu, nav, section { display: block; }
+input, textarea, select { font-size: 12px;}
+textarea { overflow: auto; }
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+.notext { font-size: 0; line-height: 0; text-indent: -4000px; }
+.left, .alignleft { float: left; display: inline; }
+.right, .alignright { float: right; display: inline; }
+
+.shell { width: 981px; margin: 0 auto; }
+.container { background: url(images/container.png) repeat-y center 0; box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.05); -moz-box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.05); -webkit-box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.05); -o-box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.05);  }
+
+
+#header { margin-bottom: 15px;  position: relative; padding-top: 25px;  height: 75px; background: url(images/border-title.png) repeat-x 0 bottom; }
+#logo { width: 132px; font-size: 0; line-height: 0; position:absolute; top: 23px; left: 21px; }
+#logo a { height: 30px; display: block; background: url(images/logos.png) no-repeat 0 0; text-indent: -4000px; }
+.search { width: 210px; margin-left: auto; padding-right: 21px; }
+.search input.field { float:left; width: 166px; padding:0 8px; height: 24px; line-height: 24px;  border: 1px solid #d3d3d3; font-size: 11px; color:#bebebe; background: #ededed; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; }
+.search input.search-btn { float:left;  font-size: 0; line-height: 0; text-indent: -4000px; cursor: pointer; width: 20px; height: 26px; border: 0; background: url(images/search-ico.png) no-repeat 0 0; }
+#logo img{
+    border-radius: 10%; width: 150px; height: 150px; 
+}
+#navigation { float:right; position: relative;padding:0 21px; height:50px;  margin-bottom: 15px; /*background: url(images/border-title.png) repeat-x 0 bottom;*/}
+#navigation ul { list-style:none; list-style-position: outside; }
+#navigation ul li { padding: 0 10px; float: left; font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: 500; }
+#navigation ul li:first-child { padding-left: 0; }
+#navigation ul li a { color: #4a4a4a; padding: 0 7px; display:block; height: 21px; line-height: 21px; border: 2px solid transparent; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; }
+#navigation ul li.active a,
+#navigation ul li a:hover { border: 2px solid #8B6363;;  /*background: url(images/nav-btn.png) repeat-x 0 0;*/ color:#fff; 
+background-color: #8B6363;;
+text-decoration: none; }
+#navigation a.nav-btn { display:none; }
+
+
+#footer { background: url(images/footer-border.png) repeat-x 0 0; padding: 18px 20px 18px 10px; }
+.footer-nav { float: left; }
+.footer-nav ul { list-style:none; list-style-position: outside; }
+.footer-nav ul li { float: left; border-right: 1px solid #afaca9;  padding:0 10px; font-size: 10px; line-height: 10px; }
+.footer-nav ul li a { color: #afaca9; }
+.footer-nav ul li a:hover { color: #878684; text-decoration: none; }
+.footer-nav ul li.last { border-right: 0; }
+
+#footer p.copy { font-size: 10px; color:#afaca9; line-height: 10px; float: right; }
+#footer p.copy a { font-size: 10px; color:#00acef;  line-height: 10px; text-decoration: underline; }
+#footer p.copy a:hover { text-decoration: none; }
+#footer p.copy span { padding:0 7px; }
+
+
+/**bookingform **/
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}
+
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.btn:focus{background-color:blue;}
+.btn:hover {opacity: 1}
+
+img{
+    height: 20px; 
+    width: 20px; 
+}
