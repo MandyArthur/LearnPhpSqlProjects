@@ -1,0 +1,28 @@
+.container {
+    overflow: hidden;
+  }
+  
+  .sliding-background {
+    background: url("universe.jpg") repeat-x;
+    height: 660px;
+    width: 5076px; /* The image width times 3 */
+    animation: slide 60s linear infinite;
+  }
+
+  @keyframes slide {
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0); /* The image width */
+    }
+  }
+
+
+  .form{
+      top: 100px; 
+      left: 400px;
+      position: fixed;
+      height: 50%; 
+      width: 50%; 
+  }
