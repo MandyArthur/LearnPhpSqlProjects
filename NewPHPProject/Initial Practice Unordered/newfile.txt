@@ -1,0 +1,2 @@
+When we open an existing file for writing,
+all the existing data will be ERASED and we start with an empty file.

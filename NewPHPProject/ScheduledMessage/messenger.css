@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-Aug-2018, 14:12:06
+    Author     : David&Mandy
+*/
+/*Without this, there was a margin of 8px around the body element */
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+body,
+html {
+    height: 100%;
+    margin: 0px; 
+    padding: 0px; 
+ 
+}
+
+p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0a37db; 
+    text-align: center; 
+    font-size: 80px; 
+    font-family: 'Kaushan Script';
+    text-shadow: 2px 2px #db0a37; 
+}
+
+
+.bg-monday {
+    /* The image used */
+    background-image: url("Monday.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-monday {
+    /* The image used */
+    background-image: url("Monday.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-tuesday {
+    /* The image used */
+    background-image: url("tuesday.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-wednesday {
+    /* The image used */
+    background-image: url("wednesday.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-thursday {
+    /* The image used */
+    background-image: url("thursday.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-friday{
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ebf216; 
+    text-align: center; 
+    font-size: 80px; 
+    font-family: 'Kaushan Script';
+    text-shadow: 2px 2px #16ebf2; 
+    
+}
+/* Just though I'd show what it could like if you wanted each day to show styled text'*/
+.bg-friday { 
+    /* The image used */
+    background-image: url("Friday.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.bg-saturday {
+    /* The image used */
+    background-image: url("saturday.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-sunday {
+    /* The image used */
+    background-image: url("Sunday.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
